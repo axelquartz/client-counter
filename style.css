@@ -1,6 +1,9 @@
 :root{
     margin: auto;
 }
+html{
+    max-width: 1000px;
+}
 body{
     text-align: center;
     display: flex;
