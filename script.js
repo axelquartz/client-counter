@@ -9,3 +9,9 @@ function addNumber() {
     counter += 1;
     displayCount.innerText = counter;
 }
+
+function saveNumber() {
+    previousEntries.innerText += ' ' + counter + ' ';
+    counter = 0;
+    displayCount.innerText = counter;
+}
